@@ -26,22 +26,24 @@ h2 {
 }
 
 /* About section */
+
 #about {
     background-color: white;
 }
 
 /* Portfolio */
+
 #portfolio {
     background-color: #dbdcde; /* light grey */
 }
 
 #portfolio .card-title {
-    color: #1f7798; /* mid-blue */
+    color: #1f7798; /* mid blue */
     font-size: 1.2rem;
 }
 
 #portfolio .btn-outline-secondary:hover {
-    background-color: #1f7798; /* mid-blue */
+    background-color: #1f7798; /* mid blue */
 }
 
 #portfolio .card-text {
@@ -49,23 +51,28 @@ h2 {
 }
 
 /* Contact section */
+
 #contact {
     background-color: white;
 }
 
 /* Header */
+
 #hero {
-    background: url("../images/background.webp") lightgrey 50% 70% / cover;
-    padding: 5%, 7%;
+    background-color: #dbdcde; /* light grey */
+    background-image: url("../images/background.webp");
+    background-size: cover;
+    background-position: 50% 70%;
     min-height: 500px;
+    padding: 5% 7%;
 }
 
 /* Media queries */
 
-/* Use Bootstrap breakpoints for XL screens */
+/* Use Bootstrap breakpoint for XL screens */
 @media screen and (min-width: 1200px) {
     /* Fixes all portfolio cards being too tall on xl screens */
-    #portfolio .card-title {
+    #portfolio .card-text {
         min-height: auto;
     }
 }
